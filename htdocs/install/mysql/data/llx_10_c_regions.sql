@@ -460,8 +460,8 @@ INSERT INTO llx_c_regions (fk_pays, code_region, cheflieu, tncc, nom) VALUES ( 2
 
 
 -- Slovenia Regions (rowid country=202)
-INSERT INTO llx_c_regions (fk_pays, code_region, cheflieu, tncc, nom) VALUES ( 202, '20203', 'SI03', NULL, 'East Slovenia');
-INSERT INTO llx_c_regions (fk_pays, code_region, cheflieu, tncc, nom) VALUES ( 202, '20204', 'SI04', NULL, 'West Slovenia');
+INSERT INTO llx_c_regions (fk_pays, code_region, cheflieu, tncc, nom) VALUES ( 202, '20203', 'SI03', NULL, 'Vzhodna Slovenija');
+INSERT INTO llx_c_regions (fk_pays, code_region, cheflieu, tncc, nom) VALUES ( 202, '20204', 'SI04', NULL, 'Zahodna Slovenija');
 
 
 -- Spain  Regions (id country=4)
