@@ -1239,18 +1239,18 @@ INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc
 
 
 -- Slovenia Provinces (rowid country=202)
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI031', NULL, NULL, 'MURA', 'Mura');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI032', NULL, NULL, 'DRAVA', 'Drava');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI033', NULL, NULL, 'CARINTHIA', 'Carinthia');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI034', NULL, NULL, 'SAVINJA', 'Savinja');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI035', NULL, NULL, 'CENTRAL SAVA', 'Central Sava');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI036', NULL, NULL, 'LOWER SAVA', 'Lower Sava');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI037', NULL, NULL, 'SOUTHEAST SLOVENIA', 'Southeast Slovenia');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI038', NULL, NULL, 'LITTORAL–INNER CARNIOLA', 'Littoral–Inner Carniola');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI041', NULL, NULL, 'CENTRAL SLOVENIA', 'Central Slovenia');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI038', NULL, NULL, 'UPPER CARNIOLA', 'Upper Carniola');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI043', NULL, NULL, 'GORIZIA', 'Gorizia');
-INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI044', NULL, NULL, 'COASTAL–KARST', 'Coastal–Karst');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI011', NULL, NULL, 'POMURSKA', 'Pomurska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI012', NULL, NULL, 'PODRAVSKA', 'Podravska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI013', NULL, NULL, 'KOROŠKA', 'Koroška');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI014', NULL, NULL, 'SAVINJSKA', 'Savinjska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI015', NULL, NULL, 'ZASAVSKA', 'Zasavska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI016', NULL, NULL, 'POSAVSKA', 'Posavska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI017', NULL, NULL, 'JUGOVZHODNA SLOVENIJA', 'Jugovzhodna Slovenija');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20203, 'SI018', NULL, NULL, 'PRIMORSKO-NOTRANJSKA', 'Primorsko-notranjska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI021', NULL, NULL, 'OSREDNJESLOVENSKA', 'Osrednjeslovenska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI022', NULL, NULL, 'GORENJSKA', 'Gorenjska');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI023', NULL, NULL, 'GORIŠKA', 'Goriška');
+INSERT INTO llx_c_departements (fk_region, code_departement, cheflieu, tncc, ncc, nom) VALUES (20204, 'SI024', NULL, NULL, 'OBALNO-KRAŠKA', 'Obalno-kraška');
 
 
 -- Switzerland Cantons (id country=6)
