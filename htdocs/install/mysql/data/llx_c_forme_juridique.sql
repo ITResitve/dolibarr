@@ -435,3 +435,11 @@ INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle) VALUES (123, '12331',
 INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle) VALUES (123, '12332', '公益財団法人');
 INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle) VALUES (123, '12333', '合同会社');
 INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle) VALUES (123, '12399', '個人又はその他の法人');
+
+-- Slovenia
+INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle, active) VALUES (202, '55201', 'Samostojni podjetnik', 1);
+INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle, active) VALUES (202, '55202', 'Družba z omejeno odgovornostjo (d.o.o.)', 1);
+INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle, active) VALUES (202, '55203', 'Družba z neomejeno odgovornostjo (d.n.o.)', 1);
+INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle, active) VALUES (202, '55204', 'Komanditna družba (k.d.)', 1);
+INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle, active) VALUES (202, '55205', 'Delniška družba (d.d.)', 1);
+INSERT INTO llx_c_forme_juridique (fk_pays, code, libelle, active) VALUES (202, '55206', 'Komanditna delniška družba (k.d.d.)', 1);
