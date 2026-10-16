@@ -1,13 +1,13 @@
 name: 🚀 Initial Full Upload
 
-on:
-  push:
-    branches: [ "24.0" ]
+on: workflow_dispatch  # Manual trigger only
+
 jobs:
   initial-upload:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: milanmk/actions-file-deployer@master
         with:
           remote-protocol: "ftp"
@@ -16,4 +16,4 @@ jobs:
           remote-password: ${{ secrets.FTP_PASSWORD }}
           remote-path: "/test.radioglas.com/"
           local-path: ./
-          sync: "full"
+          sync: "full"  # ← THIS is the key change
