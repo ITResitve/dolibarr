@@ -1,23 +1,19 @@
-name: 🚀 Safe FTP Sync (Additive Only)
+name: 🚀 Initial Full Upload
 
 on:
   push:
     branches: [ "24.0" ]
-
 jobs:
-  ftp-sync:
+  initial-upload:
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v4
-
-      - name: 📂 Sync files (Additive)
-        uses: milanmk/actions-file-deployer@master
+      - uses: actions/checkout@v4
+      - uses: milanmk/actions-file-deployer@master
         with:
           remote-protocol: "ftp"
           remote-host: ${{ secrets.FTP_SERVER }}
           remote-user: ${{ secrets.FTP_USERNAME }}
           remote-password: ${{ secrets.FTP_PASSWORD }}
-          remote-path: "/test.radioglas.com/"  # Adjust based on your FTP root
+          remote-path: "/test.radioglas.com/"
           local-path: ./
-          sync: "delta"  # This is the key: only upload changes, never delete
+          sync: "full"  # Full mirror = uploads everything
