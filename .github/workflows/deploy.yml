@@ -6,14 +6,17 @@ jobs:
   initial-upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: milanmk/actions-file-deployer@master
+      - name: Deploy via FTP
+        uses: milanmk/actions-file-deployer@1.18
         with:
           remote-protocol: "ftp"
           remote-host: ${{ secrets.FTP_SERVER }}
+          remote-port: 21
           remote-user: ${{ secrets.FTP_USERNAME }}
           remote-password: ${{ secrets.FTP_PASSWORD }}
           remote-path: "/test.radioglas.com/"
           local-path: ./
-          sync: "full"  # ← THIS is the key change
+          sync: "full"
