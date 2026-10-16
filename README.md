@@ -28,7 +28,7 @@ See the [COPYING](https://github.com/Dolibarr/dolibarr/blob/develop/COPYING) fil
 Other licenses apply for some included dependencies. See [COPYRIGHT](https://github.com/Dolibarr/dolibarr/blob/develop/COPYRIGHT) for a full list.
 
 
-## INSTALLING
+## INSTALLING 11
 
 There is a lot of different solutions to install Dolibarr.
 
