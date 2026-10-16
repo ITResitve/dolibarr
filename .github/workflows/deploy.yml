@@ -16,4 +16,4 @@ jobs:
           remote-password: ${{ secrets.FTP_PASSWORD }}
           remote-path: "/test.radioglas.com/"
           local-path: ./
-          sync: "full"  # Full mirror = uploads everything
+          sync: "full"
